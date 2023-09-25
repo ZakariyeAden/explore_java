@@ -1,3 +1,5 @@
+import java.security.cert.X509CRLSelector;
+
 public class App {
     public static void main(String[] args) throws Exception {
         // #1 Hello World
@@ -26,6 +28,12 @@ public class App {
         System.out.println("myDouble should be:" + myDouble); // Output: 9.78
         System.out.println("myInt should be:" + myInt); // Output: 9
 
-        
+         // #4 Conditional
+         if(x > 20){
+            System.out.println("50 is more than 20!"); // Should log '50 is more than 20!'
+         } else {
+            System.out.println("50 is less than 20!");
+         }
+
     }
 }
