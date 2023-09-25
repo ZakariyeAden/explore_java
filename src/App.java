@@ -38,8 +38,8 @@ public class App {
         int time = 20;
         String result = (time < 18) ? "Good day" : "Bad day"; // Shorthand or iternary in Java
         System.out.println(result);
-        // #5 Switch
 
+        // #5 Switch
         int day = 4;
         switch (day) {
         case 1:
@@ -64,5 +64,15 @@ public class App {
             System.out.println("Sunday");
             break;
         }
-            }
+
+        // #6 Arrays
+        String[] family = {"Zakariye", "Mohamed", "Sihaam"};
+        System.out.println(family[0]); 
+        
+        // #7 For each loop
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        for (String i : cars) {
+            System.out.println(i); 
+        }
+     }
 }
