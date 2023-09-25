@@ -35,5 +35,9 @@ public class App {
             System.out.println("50 is less than 20!");
          }
 
+        int time = 20;
+        String result = (time < 18) ? "Good day" : "Bad day"; // Shorthand or iternary in Java
+
+
     }
 }
