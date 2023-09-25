@@ -4,18 +4,20 @@ public class App {
         System.out.println("Hello, World!");
 
         // #2 Variables
+        char letter = 'Z';
         String name = "Zakariye Aden";
-        int x, y, z;
+
         // Final is like Const in Java
         final  int age = 23;
-        boolean myBool = true;
-        char letter = 'Z';
+        System.out.println("Hello " + name + " age is " + age );  // Name and age
 
+        int x, y, z;
         x = y = z = 50;
-        // Should be 150:
-        System.out.println(x + y + z);
-        // Name and age
-        System.out.println("Hello " + name + " age is " + age );
+        System.out.println(x + y + z);  // Should be 150:
+
+        boolean myBool = true;
+        System.out.println("Boolean:" + myBool); // Should be true
+
 
         // #3 Type Casting
         double myDouble = 9.78d;
@@ -23,5 +25,7 @@ public class App {
 
         System.out.println("myDouble should be:" + myDouble); // Output: 9.78
         System.out.println("myInt should be:" + myInt); // Output: 9
+
+        
     }
 }
