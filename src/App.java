@@ -1,5 +1,11 @@
 import java.security.cert.X509CRLSelector;
 
+// ********* Take Aways from Java ********* //
+// 1.) Java is class based Object Oriented language
+// 2.) C# is very Object Oriented language
+// 3.) Java doesn't give you hints or pointers
+// 4.) C# gives you errors right away!
+// 5.) Both are very Popular in todays Community!
 public class App {
     public static void main(String[] args) throws Exception {
         // #1 Hello World
@@ -68,7 +74,7 @@ public class App {
         // #6 Arrays
         String[] family = {"Zakariye", "Mohamed", "Sihaam"};
         System.out.println(family[0]); 
-        
+
         // #7 For each loop
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
         for (String i : cars) {
@@ -76,3 +82,6 @@ public class App {
         }
      }
 }
+
+
+
